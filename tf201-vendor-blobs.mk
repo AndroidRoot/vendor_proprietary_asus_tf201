@@ -24,7 +24,9 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/tf201/proprietary/bin/glgps:system/bin/glgps \
-    vendor/asus/tf201/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
+    vendor/asus/tf201/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+    vendor/asus/tf201/proprietary/etc/asound.conf:system/etc/asound.conf \
+    vendor/asus/tf201/proprietary/etc/dbus.conf:system/etc/dbus.conf \
     vendor/asus/tf201/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/asus/tf201/proprietary/etc/firmware/nvavp_os_00001000.bin:system/etc/firmware/nvavp_os_00001000.bin \
     vendor/asus/tf201/proprietary/etc/firmware/nvavp_os_e0000000.bin:system/etc/firmware/nvavp_os_e0000000.bin \
@@ -57,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/etc/firmware/nvrm_avp_e0000000.bin:system/etc/firmware/nvrm_avp_e0000000.bin \
     vendor/asus/tf201/proprietary/etc/firmware/nvrm_avp_eff00000.bin:system/etc/firmware/nvrm_avp_eff00000.bin \
     vendor/asus/tf201/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/asus/tf201/proprietary/etc/nvram_nh615.txt:system/etc/nvram_nh615.txt \
     vendor/asus/tf201/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/asus/tf201/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/asus/tf201/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -139,7 +140,21 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
     vendor/asus/tf201/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
     vendor/asus/tf201/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
-    vendor/asus/tf201/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/asus/tf201/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
-    vendor/asus/tf201/proprietary/vendor/firmware/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \
-    vendor/asus/tf201/proprietary/vendor/firmware/fw_bcm4329_apsta.bin:system/vendor/firmware/fw_bcm4329_apsta.bin \
+    vendor/asus/tf201/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+    vendor/asus/tf201/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
