@@ -67,8 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/asus/tf201/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
     vendor/asus/tf201/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
-    vendor/asus/tf201/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/asus/tf201/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/gpsdongle.tegra.so:system/lib/hw/gpsdongle.tegra.so \
