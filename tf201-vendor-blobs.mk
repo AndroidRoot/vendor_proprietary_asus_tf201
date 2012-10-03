@@ -76,6 +76,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/libEGL.so:system/lib/libEGL.so \
     vendor/asus/tf201/proprietary/lib/libnvmmlite_msaudio.so:system/lib/libnvmmlite_msaudio.so \
     vendor/asus/tf201/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
+    vendor/asus/tf201/proprietary/lib/libami_sensor_mw.so:system/lib/libami_sensor_mw.so \
+    vendor/asus/tf201/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/asus/tf201/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    vendor/asus/tf201/proprietary/lib/libami.so:system/lib/libami.so \
+    vendor/asus/tf201/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+    vendor/asus/tf201/proprietary/lib/libsensors.mpl3050.so:system/lib/libsensors.mpl3050.so \
     vendor/asus/tf201/proprietary/lib/libmlplatform6050.so:system/lib/libmlplatform6050.so \
     vendor/asus/tf201/proprietary/lib/libmllite3050.so:system/lib/libmllite3050.so \
     vendor/asus/tf201/proprietary/lib/libmplmpu3050.so:system/lib/libmplmpu3050.so \
